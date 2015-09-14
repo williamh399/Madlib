@@ -1,0 +1,60 @@
+import java.util.Scanner;
+
+public class Main {
+
+	public static void main(String[] args) {
+		Scanner scnr = new Scanner(System.in);
+		
+		System.out.println("Please enter a color:");
+		String color = scnr.nextLine();
+		
+		System.out.println("Please enter a superlative");
+		String superlative = scnr.nextLine();
+		
+		System.out.println("Please enter an adjective:");
+		String adj1 = scnr.nextLine();
+		
+		System.out.println("Please enter a plural body part:");
+		String pnoun1 = scnr.nextLine();
+		
+		System.out.println("Please enter a body part:");
+		String noun1 = scnr.nextLine();
+		
+		System.out.println("Please enter a noun:");
+		String noun2 = scnr.nextLine();
+		
+		System.out.println("Please enter a plural animal:");
+		String pnoun2 = scnr.nextLine();
+		
+		System.out.println("Please enter an adjective:");
+		String adj2 = scnr.nextLine();
+		
+		System.out.println("Please enter an adjective:");
+		String adj3 = scnr.nextLine();
+		
+		System.out.println("Please enter an adjective:");
+		String adj4 = scnr.nextLine();
+		
+		System.out.print("The ");
+		System.out.print(color);
+		System.out.print(" Dragon is the ");
+		System.out.print(superlative);
+		System.out.print(" Dragon of all. It has ");
+		System.out.print(adj1);
+		System.out.print(" ");
+		System.out.print(pnoun1);
+		System.out.print(", and a ");
+		System.out.print(noun1);
+		System.out.print(" shaped like a ");
+		System.out.print(noun2);
+		System.out.print(". It loves to eat ");
+		System.out.print(pnoun2);
+		System.out.print(", although it will feast on nearly anything. It is ");
+		System.out.print(adj2);
+		System.out.print(" and ");
+		System.out.print(adj3);
+		System.out.print(". You must be ");
+		System.out.print(adj4);
+		System.out.print(" around it, or you may end up as it`s meal!");
+	}
+}
